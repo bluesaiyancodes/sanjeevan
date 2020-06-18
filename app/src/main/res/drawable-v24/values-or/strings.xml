@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Covid19 - କୋଭିଡ ୧୯ </string>
+    <string name="app_desc">କରୋନା ଭାଇରସ୍ ସହିତ ସଂଗ୍ରାମ</string>
+
+    <string name="nav_home">Home - ହୋମ</string>
+    <string name="nav_symptoms">ଆପଣଙ୍କର ଲକ୍ଷଣଗୁଡିକ ଯାଞ୍ଚ କରନ୍ତୁ</string>
+    <string name="nav_lang">Change Language</string>
+    <string name="nav_comm"> କ୍ରିୟା</string>
+    <string name="nav_covid19india">କରୋନା ବିଶ୍ଳେଷଣ</string>
+    <string name="nav_mohfw">ସ୍ୱାସ୍ଥ୍ୟ ମନ୍ତ୍ରଣାଳୟ</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="home_head">କୋଭିଡ ୧୯ ସହିତ ଆମର ସଂଗ୍ରାମ</string>
+
+
+    <string name="btn_check">ଫଳାଫଳ (Check)</string>
+
+    <string name="sel_lang">ଭାଷା ଚୟନ କରନ୍ତୁ</string>
+    <string name="sel_en">ଇଂରାଜୀ</string>
+    <string name="sel_or">ଓଡିଆ</string>
+    <string name="sel_hi">ହିନ୍ଦୀ</string>
+    <string name="sel_tam">ତାମିଳ</string>
+
+
+    <string name="symptomH">ଦୟାକରି ନିଜ ପ୍ରତି ସଚ୍ଚୋଟ ରୁହନ୍ତୁ </string>
+    <string name="symptom1">ଜ୍ୱର</string>
+    <string name="symptom2">କ୍ଳାନ୍ତ ଅନୁଭବ</string>
+    <string name="symptom3">ଶୁଖିଲା କାଶ</string>
+    <string name="symptom4">ନିଶ୍ୱାସ ସଂକ୍ଷିପ୍ତତା</string>
+    <string name="symptom5">କଶରୀର ଯନ୍ତ୍ରଣା</string>
+    <string name="symptom6">ପାଣିଆ/ଯାମ  ନାକ</string>
+    <string name="symptom7">ଗଳ। ଖରାପ</string>
+    <string name="symptom8">ଡାଇରିଆ (Diarrhea)</string>
+    <string name="symptom9">ଲକ୍ଷଣ ଦେଖାଉଥିବା ଦିନ ସଂଖ୍ୟା</string>
+    <string name="symptom10">ଉଚ୍ଚ ରକ୍ତଚାପ</string>
+    <string name="symptom11">ହୃଦ ରୋଗ</string>
+    <string name="symptom12">ମଧୁମେହ(ହାର୍ଟ)</string>
+    <string name="symptom13">ଆନ୍ତର୍ଜାତୀୟ ଭ୍ରମଣ</string>
+    <string name="symptom14">ନିଶ୍ଚିତ ହୋଇଥିବା କୋଭିଡ ୧୯ ବ୍ୟକ୍ତିଙ୍କ ସହିତ ଯୋଗାଯୋଗ</string>
+    <string name="symptom15">ଜନସାଧାରଣ ପରିବହନ ବ୍ୟବହାର କରିଛନ୍ତି</string>
+    <string name="symptom16">ସର୍ବସାଧାରଣ ସମାବେଶରେ ଯୋଗ ଦେଇଛନ୍ତି</string>
+    <string name="symptom_existing"><u>ବିଦ୍ୟମାନ ରୋଗ ଅନୁସନ୍ଧାନ</u></string>
+    <string name="symptom_travel"><u>ଭ୍ରମଣ / ଯୋଗାଯୋଗ ଇତିହାସ (ଶେଷ 14 ଦିନ)</u></string>
+
+
+
+    <string name="text_yob">ବୟସ (ବର୍ଷରେ)</string>
+    <string name="text_fill">ପୁରଣ କର</string>
+    <string name="text_section">ବିଭାଗ</string>
+    <string name="text_proceed">ଆପଣ ଅଗ୍ରଗତି କରିବାକୁ ନିଶ୍ଚିତ କି ?</string>
+    <string name="text_confirm">ନିଶ୍ଚିତ</string>
+    <string name="text_confirmation">ନିଶ୍ଚିତକରଣ</string>
+    <string name="text_no">ନା</string>
+    <string name="text_yes">ହଁ</string>
+    <string name="text_fillproper">ସଠିକ୍ ପୁରଣ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="text_selall">ସମସ୍ତ କ୍ଷେତ୍ର ଚୟନ କରନ୍ତୁ</string>
+
+
+    <string name="text_covid_high1">ଉଚ୍ଚ ବିପଦ</string>
+    <string name="text_covid_high2">ପ୍ରଦାନ କରାଯାଇଥିବା ତଥ୍ୟ ଉପରେ ଆଧାର କରି, ଆପଣ କରୋନା ଭାଇରସ୍ ଦ୍ୱାରା ସଂକ୍ରମିତ କିମ୍ବା ପୂର୍ବରୁ ସଂକ୍ରମିତ ହେବାର <b>ବହୁତ ବିପଦ</b> ରହିଛି। ଆପଣ ସରକାରୀ କର୍ତ୍ତୃପକ୍ଷଙ୍କ ନିକଟରେ ପହଂଚିବା ଉଚିତ ଏବଂ ଯଥାଶୀଘ୍ର Covid19(କୋଭିଡ ୧୯) ଜୀବାଣୁ ପାଇଁ ପରୀକ୍ଷା କରିବା ଉଚ୍ଚିତ। ଏହା ଆପଣଙ୍କ ପାଇଁ ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।</string>
+    <string name="text_covid_high3">ନିଜକୁ ଅଲଗା କରନ୍ତୁ</string>
+    <string name="text_covid_high4">କଲ୍ - 1075</string>
+
+    <string name="text_covid_mod1">ମଧ୍ୟମ ବିପଦ</string>
+    <string name="text_covid_mod2">ପ୍ରାପ୍ତ ପ୍ରତିକ୍ରିୟା ଉପରେ ଆଧାର କରି, କରୋନା ଜୀବାଣୁ ସଂକ୍ରମିତ ହେବାର <b>ସମ୍ଭାବନା ମଧ୍ୟମ</b> ଅଟେ | ଆପଣଙ୍କ ଲକ୍ଷଣ ଉପରେ ତୀକ୍ଷ୍ଣ ନଜର ରଖନ୍ତୁ ଏବଂ ନିଜକୁ ଅଲଗା କରନ୍ତୁ | ନିଜକୁ ଏବଂ ଅନ୍ୟମାନଙ୍କୁ ସୁରକ୍ଷା ଦେବା ପାଇଁ ସରକାରଙ୍କ ସୁପାରିଶକୁ ଅନୁସରଣ କରନ୍ତୁ | <b>ଶାନ୍ତ ରୁହନ୍ତୁ, ସୁସ୍ଥ ରୁହନ୍ତୁ!</b></string>
+    <string name="text_covid_mod3">ନିଜକୁ ଅନ୍ୟମାନଙ୍କଠାରୁ ଅଲଗା କରନ୍ତୁ </string>
+    <string name="text_covid_mod4">ସହାୟତା କଲ୍ - 1075</string>
+
+    <string name="text_covid_low1">କମ୍ ବିପଦ</string>
+    <string name="text_covid_low2">ପ୍ରଦାନ କରାଯାଇଥିବା ପ୍ରତିକ୍ରିୟାଗୁଡ଼ିକ ଉପରେ ଆଧାର କରି, କରୋନା ଭାଇରସ୍ ସଂକ୍ରମିତ ହେବାର <b>ସମ୍ଭାବନା କମ୍</b> ଅଟେ | ନିରାପଦ ଏବଂ ସୁରକ୍ଷିତ ରହିବାକୁ, ପ୍ରତିଷେଧକ ସୁପାରିଶଗୁଡିକ ଅନୁସରଣ କରନ୍ତୁ | ଶାନ୍ତ ରୁହନ୍ତୁ, ସୁସ୍ଥ ରୁହନ୍ତୁ!</string>
+    <string name="text_covid_low3">ନିଜ ଘରେ ଅଲଗା ରୁହନ୍ତୁ</string>
+    <string name="text_covid_low4">ସହାୟତା ପାଇଁ, କଲ୍ କରନ୍ତୁ - 1075</string>
+
+    <string name="home_image_blank"> </string>
+    <string name="home_text_1">ନିୟମିତ ଭାବେ ହାତ ଧୋଇ ଦିଅନ୍ତୁ</string>
+    <string name="home_text_2">ନିଜକୁ ଅଲଗା କରି ଭାଇରସ ସହିତ ଯୁଦ୍ଧ କରନ୍ତୁ | ସବୁ ପରିସ୍ଥିତିରେ ଭିଡ଼ରୁ ଦୂରେଇ ରୁହନ୍ତୁ | </string>
+    <string name="home_text_3">ଅସୁସ୍ଥ ହେଲେ ମାସ୍କ ପିନ୍ଧନ୍ତୁ</string>
+    <string name="home_text_4">ମୁହଁ ଛୁଇଁବା ଠାରୁ ଦୂରେଇ ରୁହନ୍ତୁ</string>
+    <string name="home_text_5">ସୁଚିନ୍ତିତ ରୁହନ୍ତୁ | ମିଥ୍ୟା ଖବରରୁ ସାବଧାନ ରୁହନ୍ତୁ | ସରକାରୀ ଉତ୍ସରୁ ଆପଣ ଯାହା ଶୁଣୁଛନ୍ତି ତାହା କେବଳ ବିଶ୍ୱାସ କରନ୍ତୁ |</string>
+
+</resources>

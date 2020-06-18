@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Sanjeevan</string>
+    <string name="app_desc">கொரோனா வைரஸுக்கு எதிரான வெற்றி</string>
+
+    <string name="nav_home">Home - முகப்பு</string>
+    <string name="nav_symptoms">அறிகுறிகள்</string>
+    <string name="nav_lang">Change Language</string>
+    <string name="nav_comm">தொடர்பு கொள்ள</string>
+    <string name="nav_covid19india">கொரோனா பகுப்பாய்வு (தேசிய)</string>
+    <string name="nav_mohfw">மத்திய சுகாதார அமைச்சகம்</string>
+    <string name="nav_mohfwstate">மாநில சுகாதார அமைச்சகம்</string>
+    <string name="nav_covid19world">கொரோனா பகுப்பாய்வு (சர்வதேச)</string>
+    <string name="nav_covid19helpline">ஹெல்ப்லைன் எண்கள்</string>
+    <string name="nav_select_state">மாநில தேர்வை மாற்றவும்</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="support_name">டெவலப்பர்</string>
+    <string name="support_head">டெவலப்பரின் விவரங்கள்</string>
+    <string name="support_dev1">Bishal - blue.bishal@rocketmail.com</string>
+    <string name="support_dev2">Jeevan - jeevanjyotisahoo1@gmail.com</string>
+    <string name="support_msg">தயவுசெய்து அவர்களுக்கு மின்னஞ்சல் அனுப்புங்கள்</string>
+
+    <string name="home_head">கோவிட் 19- னை எதிர்ப்போம்</string>
+
+
+    <string name="btn_check">கண்டறிக (Check)</string>
+
+    <string name="sel_lang">மொழியை தேர்ந்தெடு</string>
+    <string name="sel_en">ஆங்கிலம்</string>
+    <string name="sel_or">ஒடியா </string>
+    <string name="sel_hi">ஹிந்தி</string>
+    <string name="sel_tam">தமிழ் </string>
+
+
+    <string name="symptomH">நேர்மையான பதில்களைக் கொடுங்கள்</string>
+    <string name="symptom1">காய்ச்சல் </string>
+    <string name="symptom2">சோர்வு நிலை  </string>
+    <string name="symptom3">இரும்மல் </string>
+    <string name="symptom4">மூச்சு விடுவதில் சிரமம் </string>
+    <string name="symptom5">உடம்பு  வலி </string>
+    <string name="symptom6">மூக்கு ஒழுகுதல்/அடைத்தல் </string>
+    <string name="symptom7">தொண்டை வறட்சி </string>
+    <string name="symptom8">வயிற்றுப்போக்கு</string>
+    <string name="symptom9">அறிகுறிகள்  காட்டும் நாட்களின் எண்ணிக்கை</string>
+    <string name="symptom10">உயர் இரத்த அழுத்தம்</string>
+    <string name="symptom11">இருதய நோய்</string>
+    <string name="symptom12">நீரிழிவு நோய்</string>
+    <string name="symptom13">சர்வதேச பயணம்</string>
+    <string name="symptom14">உறுதிப்படுத்தப்பட்ட கோவிட் 19 நபருடன் தொடர்பு </string>
+    <string name="symptom15">பொது போக்குவரத்து பயன்பாடு  </string>
+    <string name="symptom16">பொதுக்கூட்டத்தில் பங்கேற்பு  </string>
+    <string name="symptom_existing"><u>இருக்கும் நோய்</u></string>
+    <string name="symptom_travel"><u>பயணம் / தொடர்பு விவரம் (கடந்த 14 நாட்களில் )</u></string>
+
+
+
+    <string name="text_yob">வயது (ஆண்டுகளில்)</string>
+    <string name="text_fill">நிரப்புக </string>
+    <string name="text_section">பிரிவு</string>
+    <string name="text_proceed">நீங்கள் தொடருவது உறுதியா  ?</string>
+    <string name="text_confirm">உறுதிப்படுத்தவும்</string>
+    <string name="text_confirmation">உறுதிப்படுத்தல்</string>
+    <string name="text_no">இல்லை</string>
+    <string name="text_yes">ஆம்</string>
+    <string name="text_fillproper">சரியான விவரங்களை நிரப்பி  மீண்டும் முயற்சிக்கவும்</string>
+    <string name="text_selall">எல்லா விவரங்களையும் நிரப்பவும் </string>
+
+    <string name="text_covid_high1">அதிக ஆபத்து</string>
+    <string name="text_covid_high2">உள்ளிட்ட விவரங்களின் அடிப்படையில் நீங்கள் கொரோனா வைரஸால் பாதிக்கப்பட்டுள்ள அல்லது ஏற்கனவே பாதிக்கப்பட்டுள்ள<b> அபாயத்தில் உள்ளீர்கள்</b>. நீங்கள் அரசாங்க அதிகாரிகளை அணுகி <b>கோவிட் -19</b> வைரஸுக்கு விரைவில் உங்கள்<b> சுய பரிசோதனையைப் </b>பெற வேண்டும். நீங்கள் சுயமாக உங்கள் ஆரோக்கியத்தை கவனிப்பது மிகவும் அவசியமாகும் </string>
+    <string name="text_covid_high3">உங்களை தனிமைப்படுத்தி கொள்ளுங்கள் </string>
+    <string name="text_covid_high4">அழையுங்கள்  - 1075</string>
+
+    <string name="text_covid_mod1">நடுத்தர ஆபத்து</string>
+    <string name="text_covid_mod2">பெறப்பட்ட பதில்களின் அடிப்படையில், கொரோனா வைரஸால் பாதிக்கப்படுவதற்கான வாய்ப்புகள் <b> மிதமானவை.</b> உங்கள் அறிகுறிகளை உன்னிப்பாகக்  கவனியுங்கள்,உங்களை தனிமை படுத்தி கொள்ளுங்கள் . உங்களையும் மற்றவர்களையும் பாதுகாக்க பரிந்துரைகளைப் பின்பற்றவும்.ஆரோக்கியமாக இருங்கள்!</string>
+    <string name="text_covid_mod3">முன் எச்சரிக்கையாக உங்களை தனிமை படுத்திக்கொள்ளுங்கள் </string>
+    <string name="text_covid_mod4">அழையுங்கள்  - 1075</string>
+
+    <string name="text_covid_low1">குறைந்த ஆபத்து</string>
+    <string name="text_covid_low2">பதிவுசெய்யப்பட்ட பதில்களின் அடிப்படையில், கொரோனா வைரஸால் பாதிக்கப்படுவதற்கான வாய்ப்புகள் உங்களுக்கு <b>குறைவு </b>.  பாதுகாப்பாக இருக்க, தடுப்பு பரிந்துரைகளைப் பின்பற்றவும்.ஆரோக்கியமாக இருங்கள்!</string>
+    <string name="text_covid_low3"><b> உங்கள் வீட்டில் தனிமைப்படுத்தப்பட்டிருங்கள் </b>.</string>
+    <string name="text_covid_low4">உதவிக்கு  அழைக்கவும் - 1075</string>
+
+    <string name="home_image_blank"> </string>
+    <string name="home_text_1">கைகளை தவறாமல் கழுவ வேண்டும்</string>
+    <string name="home_text_2">உங்களை தனிமைப்படுத்தி வைரஸை எதிர்த்துப் போராடுங்கள். கூட்டம் கூடுவதை அறவே தவிர்க்கவும்  </string>
+    <string name="home_text_3">உடல்நிலை சரியில்லாமல் இருக்கும்போது முகமூடிகளை அணியுங்கள்</string>
+    <string name="home_text_4">முகத்தைத் தொடுவதைத் தவிர்க்கவும்</string>
+    <string name="home_text_5">விழிப்புணர்வுடன் இருங்கள் . போலி செய்திகளை நம்பாதீர் . அதிகாரபூர்வ செய்திகளை பின்தொடருங்கள் .</string>
+
+
+    <string name="state_sel">Select Native State</string>
+    <string name="state_ut">Select Native  Union territory</string>
+    <string name="state1">Andhra Pradesh</string>
+    <string name="state2">Arunachal Pradesh</string>
+    <string name="state3">Assam</string>
+    <string name="state4">Bihar</string>
+    <string name="state5">Chhattisgarh</string>
+    <string name="state6">Goa</string>
+    <string name="state7">Gujarat</string>
+    <string name="state8">Haryana</string>
+    <string name="state9">Himachal Pradesh</string>
+    <string name="state10">Jharkhand</string>
+    <string name="state11">Karnataka</string>
+    <string name="state12">Kerala</string>
+    <string name="state13">Madhya Pradesh</string>
+    <string name="state14">Maharashtra</string>
+    <string name="state15">Manipur</string>
+    <string name="state16">Meghalaya</string>
+    <string name="state17">Mizoram</string>
+    <string name="state18">Nagaland</string>
+    <string name="state19">Odisha</string>
+    <string name="state20">Punjab</string>
+    <string name="state21">Rajasthan</string>
+    <string name="state22">Sikkim</string>
+    <string name="state23">Tamil Nadu</string>
+    <string name="state24">Telangana</string>
+    <string name="state25">Tripura</string>
+    <string name="state26">Uttar Pradesh</string>
+    <string name="state27">Uttarakhand</string>
+    <string name="state28">West Bengal</string>
+    <string name="ut1">Andaman and Nicobar Islands</string>
+    <string name="ut2">Chandigarh</string>
+    <string name="ut3">Dadra &amp; Nagar Haveli &amp; Daman &amp; Diu</string>
+    <string name="ut4">Delhi</string>
+    <string name="ut5">Jammu and Kashmir</string>
+    <string name="ut6">Ladakh</string>
+    <string name="ut7">Lakshadweep</string>
+    <string name="ut8">Puducherry</string>
+
+    <string name="urlcenter">https://www.mohfw.gov.in/</string>
+    <string name="urlstate1">http://hmfw.ap.gov.in/</string>
+    <string name="urlstate2">http://health.arunachal.gov.in/</string>
+    <string name="urlstate3">https://hfw.assam.gov.in/</string>
+    <string name="urlstate4">http://health.bih.nic.in/</string>
+    <string name="urlstate5">http://www.cghealth.nic.in/</string>
+    <string name="urlstate6">http://www.dhsgoa.gov.in/</string>
+    <string name="urlstate7">http://shp.guj.nic.in/</string>
+    <string name="urlstate8">http://haryanahealth.nic.in/</string>
+    <string name="urlstate9">https://himachal.nic.in/index.php?dpt_id=19</string>
+    <string name="urlstate10">http://jrhms.jharkhand.gov.in/</string>
+    <string name="urlstate11">https://karunadu.karnataka.gov.in/hfw/Pages/home.aspx</string>
+    <string name="urlstate12">https://dhs.kerala.gov.in/</string>
+    <string name="urlstate13">http://health.mp.gov.in/en</string>
+    <string name="urlstate14">https://arogya.maharashtra.gov.in/</string>
+    <string name="urlstate15">http://www.manipurhealthdirectorate.in/</string>
+    <string name="urlstate16">http://meghealth.gov.in/</string>
+    <string name="urlstate17">https://health.mizoram.gov.in/</string>
+    <string name="urlstate18">http://nagahealth.nic.in/</string>
+    <string name="urlstate19">https://health.odisha.gov.in/</string>
+    <string name="urlstate20">http://pbhealth.gov.in/</string>
+    <string name="urlstate21">http://www.rajswasthya.nic.in/</string>
+    <string name="urlstate22">https://sikkim.gov.in/departments/health-family-welfare-department</string>
+    <string name="urlstate23">https://www.tnhealth.org/tngovin/healthdirectorates.php</string>
+    <string name="urlstate24">http://health.telangana.gov.in/</string>
+    <string name="urlstate25">https://health.tripura.gov.in/</string>
+    <string name="urlstate26">http://up-health.in/en/</string>
+    <string name="urlstate27">http://health.uk.gov.in/</string>
+    <string name="urlstate28">https://www.wbhealth.gov.in/</string>
+    <string name="urlut1">http://www.nhp.gov.in/andaman-and-nicobar-islands_pg</string>
+    <string name="urlut2">http://chandigarh.gov.in/dept_hlt.htm</string>
+    <string name="urlut3">https://daman.nic.in/medical-and-healt-services.aspx</string>
+    <string name="urlut4">http://health.delhigovt.nic.in/</string>
+    <string name="urlut5">https://www.dhskashmir.org/</string>
+    <string name="urlut6">https://leh.nic.in/departments/health/</string>
+    <string name="urlut7">http://lakdirhealth.nic.in/</string>
+    <string name="urlut8">https://www.nhmpuducherry.org.in/home</string>
+
+
+
+</resources>

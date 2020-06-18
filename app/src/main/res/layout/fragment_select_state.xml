@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textViewstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="@string/state_sel"
+            android:background="@drawable/tile_curved"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/state1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewstate"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state1" />
+
+        <Button
+            android:id="@+id/state2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state1"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state2" />
+
+        <Button
+            android:id="@+id/state3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state2"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state3" />
+
+        <Button
+            android:id="@+id/state4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state3"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state4" />
+
+        <Button
+            android:id="@+id/state5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state4"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state5" />
+
+        <Button
+            android:id="@+id/state6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state5"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state6" />
+
+        <Button
+            android:id="@+id/state7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state6"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state7" />
+
+        <Button
+            android:id="@+id/state8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state7"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state8" />
+
+        <Button
+            android:id="@+id/state9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state8"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state9" />
+
+        <Button
+            android:id="@+id/state10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state9"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state10" />
+
+        <Button
+            android:id="@+id/state11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state10"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state2" />
+
+        <Button
+            android:id="@+id/state12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state11"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state12" />
+
+        <Button
+            android:id="@+id/state13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state12"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state13" />
+
+        <Button
+            android:id="@+id/state14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state13"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state14" />
+
+        <Button
+            android:id="@+id/state15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state14"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state15" />
+
+        <Button
+            android:id="@+id/state16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state15"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state16" />
+
+        <Button
+            android:id="@+id/state17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state16"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state17" />
+
+        <Button
+            android:id="@+id/state18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state17"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state18" />
+
+        <Button
+            android:id="@+id/state19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state18"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state19" />
+
+        <Button
+            android:id="@+id/state20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state19"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state20" />
+
+        <Button
+            android:id="@+id/state21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state20"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state21" />
+
+        <Button
+            android:id="@+id/state22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state21"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state22" />
+
+        <Button
+            android:id="@+id/state23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state22"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state23" />
+
+        <Button
+            android:id="@+id/state24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state23"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state24" />
+
+        <Button
+            android:id="@+id/state25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state24"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state25" />
+
+        <Button
+            android:id="@+id/state26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state25"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state26" />
+
+        <Button
+            android:id="@+id/state27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state26"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/state27" />
+
+        <Button
+            android:id="@+id/state28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state27"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/state28" />
+
+        <TextView
+            android:id="@+id/textViewut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state28"
+            android:layout_marginTop="60sp"
+            android:gravity="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/tile_curved"
+            android:text="@string/state_ut"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/ut1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewut"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/ut1" />
+
+        <Button
+            android:id="@+id/ut2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut1"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/ut2" />
+
+        <Button
+            android:id="@+id/ut3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut2"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/ut3" />
+
+        <Button
+            android:id="@+id/ut4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut3"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/ut4" />
+
+        <Button
+            android:id="@+id/ut5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut4"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/ut5" />
+
+        <Button
+            android:id="@+id/ut6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut5"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/ut6" />
+
+        <Button
+            android:id="@+id/ut7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut6"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/tile_curved_state1"
+            android:text="@string/ut7" />
+
+        <Button
+            android:id="@+id/ut8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ut7"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/tile_curved_state2"
+            android:text="@string/ut8" />
+
+    </RelativeLayout>
+</ScrollView>

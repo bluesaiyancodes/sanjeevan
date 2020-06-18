@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="413dp"
+        android:layout_height="83dp"
+        android:background="@drawable/tile_square"
+        android:gravity="center"
+        android:text="@string/symptomH"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--  content 1 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom1"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 1 ends -->
+
+            <!--  content 2 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom2"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 2 ends -->
+
+            <!--  content 3 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom3"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 3 ends -->
+
+            <!--  content 4 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom4"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom42"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 4 ends -->
+
+            <!--  content 5 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom5"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom51"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom52"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 5 ends -->
+
+            <!--  content 6 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom6"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom61"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom62"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 6 ends -->
+
+            <!--  content 7 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom7"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom71"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom72"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 7 ends -->
+
+            <!--  content 8 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom8"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom81"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom82"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 8 ends -->
+
+            <!--  content 9 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewbox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/symptom9"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/symptomdays"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 9 ends -->
+
+            <!--  content 9.1 date picker starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewboxyob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/text_yob"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/yearofbirth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 9.1 date picker ends -->
+
+
+
+            <!--  content 10 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewbox10.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/symptom_existing"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom10"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom101"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom102"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 10 ends -->
+
+            <!--  content 11 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom11"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom111"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom112"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 11 ends -->
+
+            <!--  content 12 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewbox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/symptom12"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="50dp">
+
+                    <RadioGroup
+                        android:id="@+id/RG_symptom12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom121"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_yes" />
+
+                        <RadioButton
+                            android:id="@+id/radiosymptom122"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="@string/text_no" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--  content 12 ends -->
+
+            <!--  content 13 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textViewbox13.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/symptom_travel"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textViewbox13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/symptom13"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <RadioGroup
+                    android:id="@+id/RG_symptom13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom131"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_yes" />
+
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom132"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                        android:paddingLeft="10dp"
+                        android:text="@string/text_no" />
+
+                </RadioGroup>
+            </LinearLayout>
+            <!--  content 13 ends -->
+
+            <!--  content 14 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textViewbox14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/symptom14"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <RadioGroup
+                    android:id="@+id/RG_symptom14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom141"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_yes" />
+
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom142"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                        android:paddingLeft="10dp"
+                        android:text="@string/text_no" />
+
+                </RadioGroup>
+            </LinearLayout>
+            <!--  content 14 ends -->
+
+            <!--  content 15 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textViewbox15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/symptom15"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <RadioGroup
+                    android:id="@+id/RG_symptom15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom151"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_yes" />
+
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom152"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                        android:paddingLeft="10dp"
+                        android:text="@string/text_no" />
+
+                </RadioGroup>
+            </LinearLayout>
+            <!--  content 15 ends -->
+
+            <!--  content 16 starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textViewbox16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/symptom16"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:weightSum="2">
+
+                <RadioGroup
+                    android:id="@+id/RG_symptom16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom161"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_yes" />
+
+
+                    <RadioButton
+                        android:id="@+id/radiosymptom162"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                        android:paddingLeft="10dp"
+                        android:text="@string/text_no" />
+
+                </RadioGroup>
+            </LinearLayout>
+            <!--  content 16 ends -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btn_symptom"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:text="@string/btn_check" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

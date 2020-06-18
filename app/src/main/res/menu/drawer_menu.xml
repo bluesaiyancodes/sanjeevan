@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_symptoms"
+            android:icon="@drawable/ic_hostipal"
+            android:title="@string/nav_symptoms" />
+        <item
+            android:id="@+id/nav_covid19india"
+            android:icon="@drawable/ic_covid19india"
+            android:title="@string/nav_covid19india" />
+        <item
+            android:id="@+id/nav_covid19world"
+            android:icon="@drawable/ic_covid19world"
+            android:title="@string/nav_covid19world" />
+        <item
+            android:id="@+id/nav_mohfw"
+            android:icon="@drawable/ic_mohfw"
+            android:title="@string/nav_mohfw" />
+        <item
+            android:id="@+id/nav_mohfw_state"
+            android:icon="@drawable/ic_mohfw"
+            android:title="@string/nav_mohfwstate" />
+
+
+    </group>
+
+    <item android:title="@string/nav_comm">
+        <menu>
+            <item
+                android:id="@+id/nav_covid19helpline"
+                android:icon="@drawable/ic_helpline"
+                android:title="@string/nav_covid19helpline" />
+            <item
+                android:id="@+id/nav_lang"
+                android:icon="@drawable/ic_lang"
+                android:title="@string/nav_lang" />
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_dev"
+                android:orderInCategory="100"
+                android:title="@string/support_name"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/select_state"
+                android:icon="@drawable/ic_select_state"
+                android:title="@string/nav_select_state" />
+
+        </menu>
+    </item>
+</menu>
